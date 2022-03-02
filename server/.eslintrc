@@ -1,0 +1,18 @@
+{
+  "extends": ["wesbos/typescript"],
+  "rules": {
+    "no-console": 2,
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": false,
+        "printWidth": 120,
+        "tabWidth": 2,
+        "semi": true,
+        "bracketSpacing": true,
+        "arrowParens": "always"
+      }
+    ]
+  }
+}

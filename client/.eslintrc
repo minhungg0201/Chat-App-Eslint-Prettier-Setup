@@ -1,0 +1,37 @@
+{
+  "extends": ["wesbos/typescript"],
+  "rules": {
+    "no-console": 0,
+    "quotes": [0, "single", { "avoidEscape": true }],
+    "arrow-body-style": [0, "as-needed"],
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "react/self-closing-comp": "off",
+    "react/prop-types": "off",
+    "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "@typescript-eslint/no-unsafe-argument": "off",
+
+    "prettier/prettier": [
+      1,
+      {
+        "trailingComma": "es5",
+        "jsxSingleQuote": true,
+        "singleQuote": false,
+        "tabWidth": 2,
+        "semi": true,
+        "bracketSpacing": true,
+        "arrowParens": "always",
+        "bracketSameLine": false,
+        "spaced-comment": "never"
+      }
+    ]
+  }
+}
